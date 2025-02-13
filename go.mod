@@ -5,7 +5,7 @@ require (
 	github.com/Azure/go-autorest/autorest v0.11.18
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.0
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.200.0
-	github.com/denverdino/aliyungo v0.0.0-20170926055100-d3308649c661
+	github.com/alibabacloud-go/ecs-20140526/v5 v5.1.0
 	github.com/digitalocean/godo v1.7.5
 	github.com/gophercloud/gophercloud v0.1.0
 	github.com/hashicorp/go-discover/provider/gce v0.0.0-20241120163552-5eb1507d16b4
@@ -121,6 +121,6 @@ require (
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
-go 1.22.5
+go 1.20
 
-toolchain go1.23.0
+// toolchain go1.23.0
